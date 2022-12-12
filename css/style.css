@@ -2,41 +2,123 @@
     padding: 0;
     margin: 0;
 }
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .top-page {
     padding: 45px 0 96px 0;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .header {
     margin: 0 0 89px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header-logo {}
+.header-logo {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
 
 .header-img {}
 
-.header-text {}
+.header-text {
+    font-size: 24px;
+    line-height: 28px;
+}
 
-.header-nav {}
+.img-logo {
+    color: #F25822;
+}
 
-.top-page-kontent {}
+.header-nav {
+    width: 533px;
+    height: 17px;
+}
 
-.top-infa {}
+.menu-list {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.menu-list-item {
+    list-style: none;
+}
+
+.menu-list-item a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu-list-item-home {
+    color: #F25822;   
+}
+
+.top-page-content {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.top-info {
+    width: 522px;
+}
 
 .top-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
     margin: 0 0 17px 0;
 }
 
 .top-text {
+    ont-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
     margin: 0 0 37px 0;
+    color: #888888;
 }
 
-.top-wrp-btn {}
+.top-wrp-btn {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
 
 .top-btn {
+    border: 0;
     margin: 0 0 0 0;
+    background: #F25822;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px;
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
 
-.top-link {}
+.top-link {
+    text-decoration: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
 
 .top-photo {}
 
@@ -44,4 +126,11 @@
     margin: 259px 0 0 0;
 }
 
+.brand-logos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
 
